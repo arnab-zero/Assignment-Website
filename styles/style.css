@@ -2,10 +2,13 @@
 header,
 main {
   margin-top: 50px;
-  margin-bottom: 120px;
   margin-left: 110px;
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
+}
+
+main {
+  margin-bottom: 120px;
 }
 
 .merriweather-400 {
@@ -117,7 +120,46 @@ header #banner-title {
 }
 
 /* midnight-party-banner styling */
+.midnight-party-banner {
+   margin-bottom: 120px;
+}
 
+/* schedule section styling */
+.schedule-section {
+   padding: 100px 385px 110px 385px;
+   margin-bottom: 120px;
+   /* set background gradient */
+}
+
+.schedule-div {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.schedule-div .inter-600 {
+   font-size: 32px;
+   margin: 0px;
+   padding-top: 0px;
+   padding-bottom: 10px;
+   text-align: center;
+}
+
+.schedule-div .inter-600 .color-red {
+   color: red;
+}
+
+.schedule-div  #join-now-btn {
+   font-size: 20px;
+   color: white;
+   padding: 16px 32px;
+   background-color: red;
+   border-radius: 8px;
+   border: none;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+}
 
 /* footer section styling */
 footer {
@@ -127,54 +169,55 @@ footer {
 }
 
 .section-wrapper {
-   padding: 120px 140px;
+  padding: 120px 140px;
 }
 
-footer #section-1 #address, footer #section-1 #contact #phone-no, footer #section-1 #contact #web-address {
-   color: #FFF;
-   font-size: 24px;
-   padding-bottom: 50px;
-   text-decoration: none;
+footer #section-1 #address,
+footer #section-1 #contact #phone-no,
+footer #section-1 #contact #web-address {
+  color: #fff;
+  font-size: 24px;
+  padding-bottom: 50px;
+  text-decoration: none;
 }
 
 .section-wrapper #section-1 #contact > img {
-   padding-right: 7px;
+  padding-right: 7px;
 }
 
 footer #section-1 {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .horizontal-line {
-   border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .social-media-logo {
-   padding-right: 20px;
+  padding-right: 20px;
 }
 
 footer .section-2 {
-   display: flex;
-   justify-content: center;
-   padding-top: 50px;
-   padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .section-3 {
-   display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section-3 #copyright {
-   font-size: 24px;
-   color: #FFF;
+  font-size: 24px;
+  color: #fff;
 }
 
 .section-3 .unsubscribe-btn > button {
-   font-size: 24px;
-   background-color:  #070211;
-   border: none;
-   color: #fff;
-} 
-
+  font-size: 24px;
+  background-color: #070211;
+  border: none;
+  color: #fff;
+}
