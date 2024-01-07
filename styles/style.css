@@ -1,6 +1,8 @@
 /* shared style */
-header, main {
+header,
+main {
   margin-top: 50px;
+  margin-bottom: 120px;
   margin-left: 110px;
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
@@ -56,7 +58,6 @@ header {
   width: 1320px;
   height: 600px;
   border-radius: 16px;
-  margin-bottom: 120px;
 }
 
 header > p {
@@ -79,9 +80,9 @@ header #banner-title {
 
 /* offer section styling */
 .offer-section {
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .offer-narrative #line-1 {
@@ -92,30 +93,88 @@ header #banner-title {
 }
 
 .offer-narrative #line-2 {
-   color: #F00;
-   text-align: center;
-   font-size: 24px;
-   margin-top: 0px;
-   margin-bottom: 15px;
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 15px;
 }
 
 .offer-narrative #line-3 {
-   text-align: center;
-   font-size: 48px;
-   font-weight: 700;
-   margin-top: 0px;
-   margin-bottom: 45px;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 45px;
 }
 
 .offer-section > img {
-   width: 800px;
-   height: 500px;
-   margin-top: 0px;
-   margin-left: auto;
-   margin-right: auto;
+  width: 800px;
+  height: 500px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* midnight-party-banner styling */
 
 
+/* footer section styling */
+footer {
+  height: 609px;
+  background: #070211;
+  margin: 0px;
+}
+
+.section-wrapper {
+   padding: 120px 140px;
+}
+
+footer #section-1 #address, footer #section-1 #contact #phone-no, footer #section-1 #contact #web-address {
+   color: #FFF;
+   font-size: 24px;
+   padding-bottom: 50px;
+   text-decoration: none;
+}
+
+.section-wrapper #section-1 #contact > img {
+   padding-right: 7px;
+}
+
+footer #section-1 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.horizontal-line {
+   border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.social-media-logo {
+   padding-right: 20px;
+}
+
+footer .section-2 {
+   display: flex;
+   justify-content: center;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+
+.section-3 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.section-3 #copyright {
+   font-size: 24px;
+   color: #FFF;
+}
+
+.section-3 .unsubscribe-btn > button {
+   font-size: 24px;
+   background-color:  #070211;
+   border: none;
+   color: #fff;
+} 
 
