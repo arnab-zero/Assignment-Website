@@ -2,7 +2,7 @@
 header,
 main {
   margin-top: 50px;
-  margin-left: 110px;
+  margin-left: 100px;
   margin-right: 140px;
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
@@ -80,6 +80,44 @@ header #banner-title {
   margin-left: auto;
   margin-right: auto;
   color: #fff;
+}
+
+/* Midnight party banner styling */
+.midnight-party-banner {
+   width: 1100px;
+   background-repeat: no-repeat;
+  display: flex;
+  padding: 70px 108px 65px 125px;
+  background-image: url("../assets/Vectorrr.png");
+}
+
+.midnight-party-banner .banner-narrative {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.midnight-party-banner .banner-narrative #title {
+  width: 642px;
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  letter-spacing: 7.04px;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.midnight-party-banner .banner-narrative #description {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.80);
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.midnight-party-banner .banner-narrative #join-now {
+  color: white;
+  margin-left: 30px;
+  margin-top: 0px;
 }
 
 /* offer section styling */
@@ -192,11 +230,11 @@ header #banner-title {
 }
 
 .offer-announcement-section #section-image {
-   /* add the red ring outside the image */
+  /* add the red ring outside the image */
 }
 
 .offer-announcement-section .div-2 {
-   margin: left;
+  margin: left;
 }
 
 .offer-announcement-section .div-2 #year {
