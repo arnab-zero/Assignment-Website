@@ -88,6 +88,7 @@ header #banner-title {
   display: flex;
   padding: 70px 108px 65px 125px;
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../assets/Vectorrr.png");
+  border-radius: 15px;
   margin-bottom: 120px;
 }
 
@@ -164,6 +165,8 @@ header #banner-title {
 /* schedule section styling */
 .schedule-section {
   padding: 100px 385px 110px 385px;
+  width: 550px;
+  border-radius: 15px;
   margin-bottom: 120px;
   background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
