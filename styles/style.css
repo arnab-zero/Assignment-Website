@@ -63,12 +63,12 @@ header {
   border-radius: 16px;
 }
 
-header > p {
+header #happy-new-year {
   font-size: 32px;
+  color: #fff;
   padding-top: 177px;
   margin-bottom: 16px;
   text-align: center;
-  color: #fff;
 }
 
 header #banner-title {
@@ -119,6 +119,9 @@ header #banner-title {
   margin-left: 30px;
   margin-top: 0px;
 }
+.midnight-party-banner {
+  margin-bottom: 120px;
+}
 
 /* offer section styling */
 .offer-section {
@@ -156,11 +159,6 @@ header #banner-title {
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
-}
-
-/* midnight-party-banner styling */
-.midnight-party-banner {
-  margin-bottom: 120px;
 }
 
 /* schedule section styling */
@@ -230,7 +228,8 @@ header #banner-title {
 }
 
 .offer-announcement-section #section-image {
-  /* add the red ring outside the image */
+   border: 10px solid red;
+   border-radius: 50%;
 }
 
 .offer-announcement-section .div-2 {
@@ -254,6 +253,11 @@ header #banner-title {
 
 .offer-announcement-section .div-2 > img {
   margin-top: 0px;
+}
+
+/* holidays sale section */
+.holidays-sale-section {
+   margin-bottom: 120px;
 }
 
 /* portfolio section styling */
