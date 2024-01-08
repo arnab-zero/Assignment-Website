@@ -3,6 +3,7 @@ header,
 main {
   margin-top: 50px;
   margin-left: 110px;
+  margin-right: 140px;
   font-family: "Inter", sans-serif;
   font-family: "Merriweather", serif;
 }
@@ -159,6 +160,62 @@ header #banner-title {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+}
+
+/* offer announcement section */
+.offer-announcement-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 120px;
+}
+
+.offer-announcement-section .div-1 #color-red {
+  color: #f00;
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.offer-announcement-section .div-1 > h1 {
+  font-size: 48px;
+  color: #070211;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.offer-announcement-section .div-1 #description {
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  max-width: 390px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.offer-announcement-section #section-image {
+   /* add the red ring outside the image */
+}
+
+.offer-announcement-section .div-2 {
+   margin: left;
+}
+
+.offer-announcement-section .div-2 #year {
+  font-size: 48px;
+  color: #f00;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.offer-announcement-section .div-2 #description {
+  max-width: 275px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 45px;
+}
+
+.offer-announcement-section .div-2 > img {
+  margin-top: 0px;
 }
 
 /* portfolio section styling */
