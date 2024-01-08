@@ -272,6 +272,16 @@ header #banner-title {
   margin-top: 25px;
 }
 
+.portfolio-section .gallery-first-row > img:hover {
+   border: 5px solid #3498db;
+   border-radius: 20px;
+}
+
+.portfolio-section .gallery-second-row > img:hover {
+   border: 5px solid #3498db;
+   border-radius: 20px;
+}
+
 .portfolio-section #color-red {
   color: red;
   font-size: 24px;
