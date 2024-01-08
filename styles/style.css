@@ -56,7 +56,8 @@ main {
 
 /* header section style */
 header {
-  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%), url("../assets/Banner\ Image.png");
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../assets/Banner\ Image.png");
   background-position: center;
   width: 1320px;
   height: 600px;
@@ -87,7 +88,8 @@ header #banner-title {
   background-repeat: no-repeat;
   display: flex;
   padding: 70px 108px 65px 125px;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../assets/Vectorrr.png");
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../assets/Vectorrr.png");
   border-radius: 15px;
   margin-bottom: 120px;
 }
@@ -123,6 +125,12 @@ header #banner-title {
 .midnight-party-banner {
   margin-bottom: 120px;
 }
+
+/* .midnight-party-banner #year-2024-image {  
+  background: radial-gradient(50% 50% at 50% 50%, #690B02 27%, #8F4941 39%, #B18079 51%, #CDADA8 62%, #E3D1CD 73%, #F2EAE7 84%, #FCFAF6 93%, #FFFFFC 100%); 
+  background-blend-mode: multiply;
+  mix-blend-mode: multiply;
+} */
 
 /* offer section styling */
 .offer-section {
@@ -168,7 +176,11 @@ header #banner-title {
   width: 550px;
   border-radius: 15px;
   margin-bottom: 120px;
-  background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 
 .schedule-div {
@@ -231,8 +243,8 @@ header #banner-title {
 }
 
 .offer-announcement-section #section-image {
-   border: 10px solid red;
-   border-radius: 50%;
+  border: 10px solid red;
+  border-radius: 50%;
 }
 
 .offer-announcement-section .div-2 {
@@ -260,7 +272,33 @@ header #banner-title {
 
 /* holidays sale section */
 .holidays-sale-section {
-   margin-bottom: 120px;
+  margin-bottom: 120px;
+}
+
+.holidays-sale-section > h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.holidays-sale-section #title {
+  color: #070211;
+  font-size: 72px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+#title #holidays {
+  color: red;
+}
+
+.holidays-sale-section #description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+  /* margin-bottom: 65px; */
 }
 
 /* portfolio section styling */
@@ -276,13 +314,13 @@ header #banner-title {
 }
 
 .portfolio-section .gallery-first-row > img:hover {
-   border: 5px solid #3498db;
-   border-radius: 20px;
+  border: 5px solid #3498db;
+  border-radius: 20px;
 }
 
 .portfolio-section .gallery-second-row > img:hover {
-   border: 5px solid #3498db;
-   border-radius: 20px;
+  border: 5px solid #3498db;
+  border-radius: 20px;
 }
 
 .portfolio-section #color-red {
@@ -320,31 +358,31 @@ header #banner-title {
 }
 
 .newsletter-subscription .image-row {
-   display: flex;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .newsletter-subscription #title {
-   color: #070211;
-text-align: center;
-font-family: Merriweather;
-font-size: 48px;
-font-style: normal;
-font-weight: 900;
-line-height: normal;
-text-transform: capitalize;
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
 }
 
 .newsletter-subscription #description {
-   color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-size: 20px;
 }
 
 .mail-submission-box {
-   display: flex;
-   gap: 0px;
-   justify-content: center;
+  display: flex;
+  gap: 0px;
+  justify-content: center;
 }
 
 .newsletter-subscription .mail-submission-box #email-box {
@@ -356,13 +394,13 @@ font-size: 20px;
 }
 
 .newsletter-subscription .mail-submission-box #subscribe {
-   border: none;
-   padding: 24px 56px;
-   font-size: 20px;
-   color: white;
+  border: none;
+  padding: 24px 56px;
+  font-size: 20px;
+  color: white;
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  background-color: #F00;
+  background-color: #f00;
   width: 210px;
   height: 74px;
 }
