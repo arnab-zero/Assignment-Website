@@ -84,11 +84,12 @@ header #banner-title {
 
 /* Midnight party banner styling */
 .midnight-party-banner {
-   width: 1100px;
-   background-repeat: no-repeat;
+  width: 1100px;
+  background-repeat: no-repeat;
   display: flex;
   padding: 70px 108px 65px 125px;
   background-image: url("../assets/Vectorrr.png");
+  margin-bottom: 120px;
 }
 
 .midnight-party-banner .banner-narrative {
@@ -99,7 +100,7 @@ header #banner-title {
 
 .midnight-party-banner .banner-narrative #title {
   width: 642px;
-  color: #FFF;
+  color: #fff;
   font-family: Merriweather;
   font-size: 64px;
   letter-spacing: 7.04px;
@@ -109,7 +110,7 @@ header #banner-title {
 
 .midnight-party-banner .banner-narrative #description {
   font-size: 18px;
-  color: rgba(255, 255, 255, 0.80);
+  color: rgba(255, 255, 255, 0.8);
   margin-top: 0px;
   margin-bottom: 50px;
 }
@@ -257,6 +258,10 @@ header #banner-title {
 }
 
 /* portfolio section styling */
+.portfolio-section {
+  margin-bottom: 120px;
+}
+
 .portfolio-section .gallery-first-row,
 .portfolio-section .gallery-second-row {
   display: flex;
@@ -287,6 +292,63 @@ header #banner-title {
   max-width: 890px;
   margin-top: 0px;
   margin-bottom: 50px;
+}
+
+/* newsletter subscription section */
+.newsletter-subscription {
+  width: 900px;
+  padding: 80px 212px;
+  justify-content: center;
+  background: rgba(255, 0, 0, 0.05);
+  border-radius: 16px;
+}
+
+.newsletter-subscription .image-row {
+   display: flex;
+   justify-content: center;
+}
+
+.newsletter-subscription #title {
+   color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.newsletter-subscription #description {
+   color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-size: 20px;
+}
+
+.mail-submission-box {
+   display: flex;
+   gap: 0px;
+   justify-content: center;
+}
+
+.newsletter-subscription .mail-submission-box #email-box {
+  border: none;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  width: 648px;
+  height: 72px;
+}
+
+.newsletter-subscription .mail-submission-box #subscribe {
+   border: none;
+   padding: 24px 56px;
+   font-size: 20px;
+   color: white;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #F00;
+  width: 210px;
+  height: 74px;
 }
 
 /* footer section styling */
